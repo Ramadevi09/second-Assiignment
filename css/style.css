@@ -1,0 +1,66 @@
+.container_12{
+	
+	display: grid;
+	background-color: #d3d3d3
+
+}
+
+nav li{
+	display: inline;
+	float: right;
+	text-decoration: none;
+	font-size: 10px
+	
+
+}
+nav a:hover{
+	text-decoration: none;
+	font-size:10px;
+	color:red; 
+}
+.primary{
+	float: right;
+}
+#content{
+	position: relative;
+	overflow: hidden;
+	background-color: #fff;
+
+}
+
+
+.hero-image{
+	
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/home/ramadevi/Desktop/21.jpeg");
+  width:100%;
+  
+}
+.right{
+	float:right;
+	
+}
+.he{
+	
+	background-color: red;
+}
+.fa {
+
+font-size: 40px;
+height: 40px;
+width: 30px;
+
+}
+
+.main img{
+	width:290px;
+
+
+}
+.main{
+	margin-left: 6px;
+}
+.headfix{
+	position: fixed;
+}
+
+
