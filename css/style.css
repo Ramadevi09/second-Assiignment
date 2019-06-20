@@ -1,15 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font-family: sans-serif; 
+}
 .container_12{
+	width: auto;
+	height: auto;
+	background-color: #d3d3d3;
 	
-	display: grid;
-	background-color: #d3d3d3
 
 }
-
-nav li{
-	display: inline;
+nav{
+	width: 100%;
+	
+	margin: 0 auto;
+}
+nav ul{
 	float: right;
+}
+nav ul li{
+	display: inline;
+	list-style-type: none;
+}
+nav ul li a{
 	text-decoration: none;
-	font-size: 10px
+	padding: 1px;
+	
+	letter-spacing: 0.1px;
+}
+.logo{
+	float: left;
 	
 
 }
@@ -31,17 +52,28 @@ nav a:hover{
 
 .hero-image{
 	
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/home/ramadevi/Desktop/21.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/home/ramadevi/Desktop/20.jpeg");
   width:100%;
+  align-items: center;
+  margin-top: 74px;
+
   
 }
-.right{
-	float:right;
-	
+.hero-image .hero-text{
+	text-align: center;
+
+
+	left: 18.5%;
 }
+
 .he{
 	
-	background-color: red;
+	background-color: #f2f2f200;
+	height: 50px;
+	position: fixed;
+
+
+
 }
 .fa {
 
@@ -58,9 +90,15 @@ width: 30px;
 }
 .main{
 	margin-left: 6px;
-}
-.headfix{
-	position: fixed;
+	padding: 35px;
 }
 
-
+.right{
+	text-align: justify;
+}
+.main1{
+	width: 960px;
+}
+.foot{
+	text-align: center;
+}
